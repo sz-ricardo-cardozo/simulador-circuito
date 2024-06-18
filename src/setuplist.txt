@@ -1,0 +1,29 @@
+### setuplist.txt first line must be a comment
++Básicos
+ohms.txt Lei de Ohm
+resistors.txt Resistores
+cap.txt Capacitores
+induct.txt Indutores
+>lrc.txt Circuito RLC
+voltdivide.txt Divisor de Voltagem
+pot.txt Potenciômetro
+potdivide.txt Potenciômetro como Divisor
+thevenin.txt Teorema de Thevenin
+-
++Circuitos A/C
+capac.txt Capacitor
+inductac.txt Indutor
+capmultcaps.txt Capacitores de Várias Capacitâncias
+capmultfreq.txt Capacitores com Várias Frequências
+indmultind.txt Indutores de Várias Indutâncias
+indmultfreq.txt Indutores com Várias Indutâncias
+impedance.txt Impedâncias de Mesma Magnitude
+res-series.txt Ressonância em Série
+res-par.txt Ressonância Paralela
+-
++Outros Circuitos
++Serie/Paralelo
+indseries.txt Indutores em Serie
+indpar.txt Indutores em Paralelo
+capseries.txt Capacitores em Serie
+cappar.txt Capacitores em Paralelo
