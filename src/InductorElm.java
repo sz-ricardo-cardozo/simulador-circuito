@@ -67,10 +67,10 @@ import java.util.StringTokenizer;
 	}
 	public EditInfo getEditInfo(int n) {
 	    if (n == 0)
-		return new EditInfo("Inductance (H)", inductance, 0, 0);
+		return new EditInfo("Indutância (H)", inductance, 0, 0);
 	    if (n == 1) {
 		EditInfo ei = new EditInfo("", 0, -1, -1);
-		ei.checkbox = new Checkbox("Trapezoidal Approximation",
+		ei.checkbox = new Checkbox("Aproximação trapezoidal",
 					   ind.isTrapezoidal());
 		return ei;
 	    }
