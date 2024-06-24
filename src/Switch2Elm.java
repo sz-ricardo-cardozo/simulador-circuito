@@ -99,7 +99,7 @@ import java.util.StringTokenizer;
 	    return comparePair(n1, n2, 0, 1+position);
 	}
 	void getInfo(String arr[]) {
-	    arr[0] = (link == 0) ? "switch (SPDT)" : "switch (DPDT)";
+	    arr[0] = (link == 0) ? "Chave Fechada (SPDT)" : "Chave Aberta (DPDT)";
 	    arr[1] = "I = " + getCurrentDText(getCurrent());
 	}
 	public EditInfo getEditInfo(int n) {

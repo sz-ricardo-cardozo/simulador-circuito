@@ -83,12 +83,12 @@ class SwitchElm extends CircuitElm {
 	    position = 0;
     }
     void getInfo(String arr[]) {
-	arr[0] = (momentary) ? "push switch (SPST)" : "switch (SPST)";
+	arr[0] = (momentary) ? "chave fechada (SPST)" : "interruptor (SPST)";
 	if (position == 1) {
-	    arr[1] = "open";
+	    arr[1] = "Aberto";
 	    arr[2] = "Vd = " + getVoltageDText(getVoltageDiff());
 	} else {
-	    arr[1] = "closed";
+	    arr[1] = "Fechado";
 	    arr[2] = "V = " + getVoltageText(volts[0]);
 	    arr[3] = "I = " + getCurrentDText(getCurrent());
 	}

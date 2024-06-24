@@ -53,7 +53,7 @@ import java.util.StringTokenizer;
 	    }
 	}
 	void getInfo(String arr[]) {
-	    arr[0] = "wire";
+	    arr[0] = "fio";
 	    arr[1] = "I = " + getCurrentDText(getCurrent());
 	    arr[2] = "V = " + getVoltageText(volts[0]);
 	}
